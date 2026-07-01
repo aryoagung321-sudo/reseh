@@ -1,9 +1,8 @@
 # <div align='center'>PouCode</div>
 <div align='center'>
 
-[![npm version](https://img.shields.io/npm/v/@poucode/baileys.svg)](https://www.npmjs.com/package/@poucode/baileys)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Downloads](https://img.shields.io/npm/dm/@poucode/baileys.svg)](https://www.npmjs.com/package/@poucode/baileys)
+[![GitHub](https://img.shields.io/badge/source-GitHub-black.svg)](https://github.com/pou-code/Baileys)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
 
 A WebSockets library for interacting with WhatsApp Web, maintained under the **PouCode** brand.
@@ -14,10 +13,21 @@ This project is a fork built on top of [Baileys](https://github.com/WhiskeySocke
 ---
 
 ## Installation
+Install directly from GitHub (not published on npm registry):
+```bash
+npm install github:pou-code/Baileys
+```
+
+Or add it to your `package.json` manually:
 ```json
 "dependencies": {
-  "@poucode/baileys": "latest"
+  "@poucode/baileys": "github:pou-code/Baileys"
 }
+```
+
+You can also pin to a specific branch or commit:
+```bash
+npm install github:pou-code/Baileys#main
 ```
 
 ## Import
